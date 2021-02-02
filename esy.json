@@ -1,0 +1,13 @@
+{
+  "source": "./flowtype.opam",
+  "override": {
+    "build": "dune build",
+    "buildsInSource": "_build",
+    "dependencies": {
+      "@opam/base": "v0.14.1"
+    },
+    "resolutions": {
+      "ocaml": "4.10.2000"
+    } 
+  }
+}

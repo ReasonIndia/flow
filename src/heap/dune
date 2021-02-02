@@ -24,8 +24,8 @@
   (wrapped false)
   (modules
     prefix
-    sharedMem
-    value)
+    sharedMem)
+
   (preprocess (pps ppx_deriving.std visitors.ppx))
   (libraries
     heap_libc
