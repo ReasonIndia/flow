@@ -6,6 +6,11 @@
     "dependencies": {
       "@opam/base": "v0.14.1"
     },
+    "devDependencies": {
+      "@opam/merlin": "*",
+      "@opam/ocaml-lsp-server": "ocaml/ocaml-lsp:ocaml-lsp-server.opam",
+      "refmterr": "*"
+    },
     "resolutions": {
       "ocaml": "4.10.2000"
     } 
