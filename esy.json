@@ -1,8 +1,9 @@
 {
   "source": "./flowtype.opam",
   "override": {
-    "build": "dune build",
-    "buildsInSource": "_build",
+    "build": "make",
+    "buildsInSource": true,
+    "buildEnv": { "FLOW_RELEASE": "1" },
     "dependencies": {
       "@opam/base": "v0.14.1"
     },
